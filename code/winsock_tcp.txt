@@ -1,0 +1,95 @@
+TCPServer
+
+
+#include <winsock2.h>
+
+void main(void)
+{
+   WSADATA              wsaData;
+   SOCKET               ListeningSocket;
+   SOCKET               NewConnection;
+   SOCKADDR_IN          ServerAddr;
+   SOCKADDR_IN          ClientAddr;
+   int                  Port = 5150;
+   
+   // 初始化Windows Socket 2.2
+
+   WSAStartup(MAKEWORD(2,2), &wsaData);
+   
+   // 创建一个新的Socket来响应客户端的连接请求
+ 
+   ListeningSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	  
+   // 填写服务器地址信息
+   // 端口为5150
+   // IP地址为INADDR_ANY，注意使用htonl将IP地址转换为网络格式
+    	  
+   ServerAddr.sin_family = AF_INET;
+   ServerAddr.sin_port = htons(Port);    
+   ServerAddr.sin_addr.s_addr = htonl(INADDR_ANY);
+	  
+   // 绑定监听端口
+	  
+   bind(ListeningSocket, (SOCKADDR *)&ServerAddr, sizeof(ServerAddr));
+
+   // 开始监听，指定最大同时连接数为5
+  
+   listen(ListeningSocket, 5); 
+
+   // 接受新的连接
+
+   NewConnection = accept(ListeningSocket, (SOCKADDR *) &ClientAddr,&ClientAddrLen));
+
+   // 新的连接建立后，就可以互相通信了，在这个简单的例子中，我们直接关闭连接，
+   // 并关闭监听Socket，然后退出应用程序
+   //  
+
+   closesocket(NewConnection);
+   closesocket(ListeningSocket);
+
+   // 释放Windows Socket DLL的相关资源
+
+   WSACleanup();
+}
+
+
+TCPClient
+
+# include <winsock2.h>
+
+void main(void)
+{
+   WSADATA              wsaData;
+   SOCKET               s;
+   SOCKADDR_IN          ServerAddr;
+   int                  Port = 5150;
+   
+   //初始化Windows Socket 2.2
+
+   WSAStartup(MAKEWORD(2,2), &wsaData);
+   
+   // 创建一个新的Socket来连接服务器
+ 
+   s = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+   
+   // 填写服务器端地址信息
+   // 端口为5150
+   // 服务器IP地址为"136.149.3.29"，注意使用inet_addr将IP地址转换为网络格式
+
+   ServerAddr.sin_family = AF_INET;
+   ServerAddr.sin_port = htons(Port);    
+   ServerAddr.sin_addr.s_addr = inet_addr("136.149.3.29");
+
+   // 向服务器发出连接请求
+
+   connect(s, (SOCKADDR *) &ServerAddr, sizeof(ServerAddr)); 
+      
+   // 新的连接建立后，就可以互相通信了，在这个简单的例子中，我们直接关闭连接，
+   // 然后退出应用程序
+
+   closesocket(s);
+
+   // 释放Windows Socket DLL的相关资源
+
+   WSACleanup();
+}

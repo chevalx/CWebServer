@@ -1,0 +1,7 @@
+sudo apt-get install apache2
+sudo /etc/init.d/apache2 restart
+
+/var/www/html/index.html
+
+timeout configfile: 
+/etc/apache2/apache2.conf  £¨ÐÞ¸ÄKeepAliveTimeoutÊ±¼ä£©
