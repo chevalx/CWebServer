@@ -1,0 +1,8 @@
+int fprintf(FILE * stream, const char * format, ...);
+该函数把信息输出到stream上，相当于自定义输出位置的printf()
+
+char * strerror(int errnum);
+strerror()用来依参数errnum 的错误代码来查询其错误原因的描述字符串, 然后将该字符串指针返回。
+有时候会直接给strerror传入errno
+errno 是系统定义的，存在于errno.h
+每次程序调用系统api失败的时候，系统会自动用用错误代码填充errno这个全局变量，这样你只需要读errno这个全局变量就可以获得失败原因了。
