@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/CWebServer.dir/httpclient.c.o CMakeFiles/CWebServer.dir/httpserverp.c.o CMakeFiles/CWebServer.dir/wrap.c.o  -o CWebServer 

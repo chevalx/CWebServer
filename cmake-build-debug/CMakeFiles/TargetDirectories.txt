@@ -1,0 +1,4 @@
+/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/CMakeFiles/httpserverp.dir
+/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/CMakeFiles/httpclient.dir

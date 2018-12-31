@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/httpservert.dir/httpservert.c.o CMakeFiles/httpservert.dir/wrap.c.o  -o httpservert -lpthread 

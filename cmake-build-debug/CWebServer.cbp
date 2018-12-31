@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CWebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpserverp">
+				<Option output="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/httpserverp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zlx/c_projects/OSLab/CWebServer/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 httpserverp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpserverp/fast">
+				<Option output="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/httpserverp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zlx/c_projects/OSLab/CWebServer/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 httpserverp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpclient">
+				<Option output="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/httpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zlx/c_projects/OSLab/CWebServer/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 httpclient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="httpclient/fast">
+				<Option output="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/httpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zlx/c_projects/OSLab/CWebServer/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 httpclient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zlx/c_projects/OSLab/CWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zlx/c_projects/OSLab/CWebServer/httpclient.c">
+			<Option target="httpclient"/>
+		</Unit>
+		<Unit filename="/home/zlx/c_projects/OSLab/CWebServer/httpserverp.c">
+			<Option target="httpserverp"/>
+		</Unit>
+		<Unit filename="/home/zlx/c_projects/OSLab/CWebServer/wrap.c">
+			<Option target="httpserverp"/>
+			<Option target="httpclient"/>
+		</Unit>
+		<Unit filename="/home/zlx/c_projects/OSLab/CWebServer/wrap.h">
+			<Option target="httpserverp"/>
+			<Option target="httpclient"/>
+		</Unit>
+		<Unit filename="/home/zlx/c_projects/OSLab/CWebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
